@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@source "../../../nuxt.config.ts";
+
+@theme {
+  --default-font-family: "Geist", "sans-serif";
+  --font-geist-mono: "Geist Mono", "sans-serif";
+  --color-site-blue: #0e0a24;
+}
+@custom-variant dark (&:where(.dark, .dark *));

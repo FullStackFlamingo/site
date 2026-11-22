@@ -1,0 +1,41 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Past work and other fun things!",
+  "homepage": "https://github.com/FullStackFlamingo/site#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullStackFlamingo/site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@iconify-json/uil": "^1.2.3",
+    "@iconify/vue": "^5.0.5",
+    "@nuxt/content": "^3.17.0",
+    "@nuxt/fonts": "^1.2.0",
+    "@nuxt/icon": "^2.6.3",
+    "@tailwindcss/vite": "^4.3.5",
+    "nuxt": "^4.6.4",
+    "prettier": "^3.10.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@vueuse/core": "^15.0.0",
+    "tailwindcss": "^4.3.5",
+    "vue": "^3.5.45",
+    "vue-router": "^5.5.1"
+  }
+}
